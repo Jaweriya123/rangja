@@ -1,0 +1,59 @@
+.page-footer{
+    background-color: #111111;
+    padding: 20px;
+    .footer-title{
+        font-size: 128.571%;
+        position: relative;
+        color: #fff;
+        font-weight: 700;
+        margin-bottom: 15px
+    }
+    .footer-content{
+        ul{
+        display: flex;
+        list-style: none;
+        padding: 0;   
+        margin-bottom: 8px;
+        
+        li{
+            @include footerblockicon(); 
+            &.phone{
+                  margin-right: 1rem;
+            } 
+            &.facebook{
+                margin-right: 3rem;
+              }
+            &.faqs{
+                margin-right: 8rem;
+            }
+            &.exchange{
+                margin-right: 2rem;
+            }
+        }
+    }
+    .footer-searchbox{
+        position: relative;
+        .footer-search-input{
+            height: 44px;
+            width: 100%;
+            display: table-cell;
+            background-color: #fff;
+    border: none;
+    padding: 0 15px;
+    color: #222;
+        }
+        .f-searchbtn{
+            background-color: #ED326B;
+            color: #FFFFFF; 
+            border: none; 
+            position: absolute;
+            right: 0;  
+            width: 122px;
+            border: none;  
+            height: 100%;     
+        }
+
+    }
+}      
+
+}

@@ -1,0 +1,128 @@
+$primary-color : #ed326b;
+$secondry-color:#FFFFFF;
+$black-color:#222;
+$gray-color:#aaa;
+$nav-hover:#d52d60;
+$dropdown-hover:#f5f5f5;
+
+body {
+    background-color: $secondry-color;
+    color: #888888;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+        width: calc(100% - 30px);
+   }
+}
+
+@import "header";
+@import "mixin";
+
+.banner {
+    img{
+        max-width: 100%;
+        height: auto;
+        margin-top: 17px
+    }
+}
+
+@import "content";
+
+@import "footer";
+
+.mobile-header {
+    display: none;
+
+}
+.sidenav{
+    display: none;
+}
+
+
+@media (max-width: 1260px) and (min-width: 960px){
+.block-call, .block-email {
+    display: none;
+}
+}
+@media screen and (max-width: 989px) {
+    .main-header{
+        display: none;
+        text-align: center;
+        .right-content{
+            display: none;
+        }      
+    }
+    .nav-pages{
+        display: none; 
+    }
+    .search-header{
+        position: absolute;
+        top: -4px;
+        left: 23px;
+        .searchbar {
+        min-width: 314px !important; 
+    }
+    }
+    .header-bottom{
+        background: $gray-color;
+    }
+    .banner-image img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .footer-content{
+        ul{
+            display: block !important;
+        }
+    .f-searchbtn{
+        top:-9px;  
+        width: 90px;  
+    }
+}
+.item img {
+    display: block;
+    width: 100%;
+    /* height: auto; */
+}
+.product-container{
+    height: auto;
+}
+}
+
+@media (max-width: 980px){
+  
+@import "mobileheader";
+@import "sidebar";
+     
+}
+@media (max-width: 977px){
+.page-footer .footer-content .footer-searchbox .f-searchbtn {
+    background-color: #ED326B;
+    color: #FFFFFF;
+    border: none;
+    position: absolute;
+    right: 0;
+    width: 122px;
+    border: none;
+    height: 100%;
+    top: 0;
+}
+.group-list .group-item .group-container {
+    margin-left: 42px;
+}
+}
+@media (max-width: 762px){
+    .page-footer .footer-content .footer-searchbox .f-searchbtn {
+        width: 90px;
+    }
+}
+@media (max-width: 572px){
+    .page-footer .footer-content .footer-searchbox .f-searchbtn {
+        width: 90px;
+        top: -8px;
+    }
+}

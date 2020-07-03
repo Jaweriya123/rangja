@@ -1,0 +1,87 @@
+.sidenav {
+    display: block;
+    height: 100%;
+    width: 280px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    padding: 30px 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.2s;
+    .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        color: #ED326B;
+    }
+  
+   .side-header{
+    margin-bottom: 26px;
+       .list-inline{
+        display: flex;
+        border-bottom: 1px solid #ddd;
+           li{
+               a{
+                  color: #222;
+                  text-transform: uppercase;
+                  font-weight: 600;
+                  font-size: 14px;
+                  border: none;
+                  .active{
+                    border-bottom: 1px solid black;
+                  }
+                &:active{
+                    border-bottom: 1px solid black;
+                }  
+                &:hover{
+                    border-bottom: 3px solid black;
+                }
+               }
+           }
+       }
+   }
+   .sidebar-dropdown{
+       .dropdown-btn {
+        padding: 6px 8px 6px 16px;
+        text-decoration: none;
+        font-size: 14px;
+        color: $black-color;
+        display: block;
+        border: none;
+        background: none;
+        width: 100%;
+        text-transform: uppercase;
+        text-align: left;
+        cursor: pointer;
+        outline: none;
+        i{
+            float: right;
+            padding-right: 26px;
+            font-size: 17px;
+        }
+    }
+        .dropdown-container{
+            list-style: none;
+            transition: .5s;
+            li{
+                position: relative;
+                margin-bottom: 10px;
+                transition: .5s;
+                a{
+                font-size: 14px;
+                color:$black-color;
+                display: table;
+                margin-bottom: 10px;
+                text-decoration: none;
+                transition: .5s;
+                }
+            }
+        }
+      }
+   }

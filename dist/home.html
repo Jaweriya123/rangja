@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rangja</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="js/main.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+
+</head>
+
+<body>
+    <!--header-->
+    <header class="main-header">
+        <!--top header-->
+        <div class="top-header">
+            <div class="container">
+                <div class="row  header-middle">
+                    <div class="col-md-3 col-sm-3">
+                        <div class="left-content">
+                            <a class="navbar-brand" href="https://myrangja.com/"><img src="../dist/images/rangja.png"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-9 right-content ">
+
+                        <div class="row justify-content-end">
+                            <div class="block-right block-call col-md-3 row ">
+                                <div class="right-icon"><i id="phone" class="fas fa-phone-volume"></i></div>
+                                <div class="col right-heading">
+                                    <div class="top-title">Call Us</div>
+                                    <p>0311 1555259</p>
+                                </div>
+                            </div>
+
+                            <div class="block-right block-email col-md-3 row">
+                                <div class="right-icon"><i class="far fa-envelope"></i></div>
+                                <div class="col right-heading">
+                                    <div class="top-title">Email Address</div>
+                                    <p>help@myrangja.com</p>
+                                </div>
+                            </div>
+
+                            <div class=" block-right col-sm-3 col-md-3 row">
+                                <div class="right-icon"><i class="far fa-user"></i></div>
+                                <div class="col right-heading">
+                                    <div class="top-title">My Account</div>
+                                    <p><a href="/">Login </a>/ <a href="/">Register </a></p>
+                                </div>
+                            </div>
+                            <div class="block-right col-sm-3 col-md-3 row">
+                                <div class="right-icon"><i class="fas fa-shopping-cart"></i></div>
+                                <div class="col right-heading">
+                                    <div class="top-title">Shopping Cart</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--header navbar-->
+        <nav class="header-bootom navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav nav-pages mr-auto">
+                        <li class="nav-item active home">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="dropdownn ">
+                            <button class="dropbtn ">Print Remix
+                                <i class="fas fa-angle-down"></i>
+                            </button>
+                            <ul class="dropdown-content">
+                                <li><a href="#">shirts</a></li>
+                                <li> <a href="#">Print 2 piece / 3 Piece</a></li>
+                                <li><a href="#">Unstiched</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdownn">
+                            <button class="dropbtn">Classics
+                                <i class="fas fa-angle-down"></i>
+                            </button>
+                            <ul class="dropdown-content">
+                                <li><a href="#">Shirts</a></li>
+                                <li> <a href="#">Classics Print 2 piece / 3 Piece</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdownn">
+                            <button class="dropbtn">festive
+                                <i class="fas fa-angle-down"></i>
+                            </button>
+                            <ul class="dropdown-content">
+                                <li><a href="#">shirts</a></li>
+                                <li> <a href="#">print 2picee / 3 picec</a></li>
+                                <li><a href="#">Unstiched</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdownn">
+                            <button class="dropbtn">bottom
+                                <i class="fas fa-angle-down"></i>
+                            </button>
+                            <ul class="dropdown-content">
+                                <li><a href="#">shirts</a></li>
+                                <li> <a href="#">print 2picee / 3 picec</a></li>
+                                <li><a href="#">Unstiched</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdownn">
+                            <button class="dropbtn">accessories
+                                <i class="fas fa-angle-down"></i>
+                            </button>
+                            <ul class="dropdown-content">
+                                <li><a href="#">shirts</a></li>
+                                <li> <a href="#">print 2picee / 3 picec</a></li>
+                                <li><a href="#">Unstiched</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <form class="form-inline my-2 my-lg-0 search-header">
+                    <input class="form-control mr-sm-2 searchbar " type="search"
+                        placeholder="Search entire store here .." aria-label="Search">
+                    <span class="fa fa-search  searchicon"></span>
+
+                </form>
+            </div>
+        </nav>
+    </header>
+    <!--mobile header-->
+    <div class="mobile-header">
+        <div class="container">
+            <div class="mobile-top row">
+                <div class="mobile-menu" onclick="openNav()"> <i class="fas fa-bars"></i> </div>
+                <div class="mobile-logo "><img src="../dist/images/rangja.png"></div>
+                <div class="mobile-cart "><i class="fas fa-shopping-cart"></i></div>
+            </div>
+        </div>
+        <div class="mobile-bottom">
+            <form class="form-inline container mobile-header">
+                <input class="form-control mr-sm-2 mobile-searchbar " type="search"
+                    placeholder="Search entire store here .." aria-label="Search">
+                <span class="fa fa-search  mobile-searchicon"></span>
+            </form>
+        </div>
+    </div>
+    <!--sidemenu-->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="side-header ">
+            <ul class="list-inline nav nav-tabs">
+                <li><a href="#" class="nav-link active">Menu</a></li>
+                <li><a href="#" class="nav-link ">Account </a></li>
+                <li><a href="#" class="nav-link ">setting </a></li>
+            </ul>
+        </div>
+
+        <div class="sidebar-content">
+            <nav>
+                <div class="sidebar-dropdown">
+                    <button class="dropdown-btn">print remix
+                        <i class="fas fa-angle-down"></i>
+                    </button>
+                    <ul class="dropdown-container">
+                        <li><a href="#">shirts</a></li>
+                        <li><a href="#">Print 2 piece / 3 Piece</a></li>
+                        <li><a href="#">Unstiched</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-dropdown">
+                    <button class="dropdown-btn">classics
+                        <i class="fas fa-angle-down"></i>
+                    </button>
+                    <ul class="dropdown-container">
+                        <li><a href="#">shirts</a></li>
+                        <li><a href="#">classics Print 2 piece / 3 Piece</a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-dropdown">
+                    <button class="dropdown-btn">festive
+                        <i class="fas fa-angle-down"></i>
+                    </button>
+                    <ul class="dropdown-container">
+                        <li><a href="#">shirts</a></li>
+                        <li><a href="#">Print 2 piece / 3 Piece</a></li>
+
+                    </ul>
+                </div>
+                <div class="sidebar-dropdown">
+                    <button class="dropdown-btn">bootoms
+                        <i class="fas fa-angle-down"></i>
+                    </button>
+                    <ul class="dropdown-container">
+                        <li><a href="#">shirts</a></li>
+                        <li><a href="#">Print 2 piece / 3 Piece</a></li>
+                        <li><a href="#">Unstiched</a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-dropdown">
+                    <button class="dropdown-btn">bootoms
+                        <i class="fas fa-angle-down"></i>
+                    </button>
+                    <ul class="dropdown-container">
+                        <li><a href="#">shirts</a></li>
+                        <li><a href="#">Print 2 piece / 3 Piece</a></li>
+                        <li><a href="#">Unstiched</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!--bannner img-->
+    <div class="banner container">
+        <div class="row">
+            <img src="../dist/images/web-banner.jpg" alt="Slide Image" width="1140px">
+        </div>
+    </div>
+
+    <!--gallery section-->
+    <div class="group-image" style="margin-bottom: 30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-3 banner-left">
+                    <div class="banner-image">
+                        <a href="#"><img src="../dist/images/05.jpg" alt="" width="285" height="235"></a>
+                        <div class="hover-banner">
+                            <div class="inner-block">
+                                <h3 class="name-category">Classics</h3>
+                                <a href="#" class="shop-now">Shop now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="banner-image">
+                        <a href="#"><img src="../dist/images/04.jpg" alt="" width="285" height="235"></a>
+                        <div class="hover-banner">
+                            <div class="inner-block">
+                                <h3 class="name-category">Print Shirt</h3>
+                                <a href="/" class="shop-now">Shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-3 banner-center">
+                    <div class="banner-image">
+                        <a href="#"> <img alt="Banner Image" width="285" height="480" src="../dist/images/03.jpg"></a>
+                        <div class="hover-banner">
+                            <div class="inner-block">
+                                <h3 class="name-category">Prints Remix</h3>
+                                <a href="#" class="shop-now">Shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-sm-6 banner-right">
+                    <div class="banner-image">
+                        <a href="/"> <img class="mark-lazy" alt="Banner Image" width="580" height="235"
+                                src="../dist/images/02_1.jpg"></a>
+                        <div class="hover-banner">
+                            <div class="inner-block">
+                                <h3 class="name-category">Festive Shirt</h3>
+                                <a href="#" class="shop-now">Shop now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="banner-image">
+                        <a href="#">
+                            <img alt="Banner Image" width="580" height="235" src="../dist/images/01.jpg"></a>
+                        <div class="hover-banner">
+                            <div class="inner-block">
+                                <h3 class="name-category">FESTIVE - 2 PIECE AND 3 PIECE</h3>
+                                <a href="#" class="shop-now">Shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--product slider-->
+    <div class="product-slider">
+        <div class="container">
+            <div class="product-title">
+                <strong>Best Sellers</strong>
+            </div>
+
+            <div id="owl-demo" class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="product-content">
+                        <div class="product-container">
+                            <div class="product-img">
+                                <img src="../dist/images/1-44002d8-rang-ja_1.jpg" alt="" width="260" height="400">
+                            </div>
+                            <div class="product-detail ">
+                                <div class="product-name"><a href="#">black vase</a></div>
+                                <div class="product-price row d-block">
+                                    <span class="new-price">PKR7,515.00</span>
+                                    <span class="old-price"><del>PKR8,350.00</del></span>
+                                </div>
+                                <div class="product-buttons row ">
+                                    <div class="addfavorit"><a href="#"><i class="far fa-heart"></i></a></div>
+                                    <div class="addtocart">
+                                        <button type="submit">Add to cart</button>
+                                    </div>
+                                    <div class="tocompare"><a href="#"><i class="fas fa-exchange-alt"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product-content">
+                        <div class="product-container">
+                            <div class="product-img">
+                                <img src="../dist/images/1519040826528-product_6.jpeg" alt="" width="260" height="400">
+                            </div>
+                            <div class="product-detail ">
+                                <div class="product-name"><a href="#">black vase</a></div>
+                                <div class="product-price row d-block">
+                                    <span class="new-price">PKR7,515.00</span>
+                                    <span class="old-price"><del>PKR8,350.00</del></span>
+                                </div>
+                                <div class="product-buttons row ">
+                                    <div class="addfavorit"><a href="#"><i class="far fa-heart"></i></a></div>
+                                    <div class="addtocart">
+                                        <button type="submit">Add to cart</button>
+                                    </div>
+                                    <div class="tocompare"><a href="#"><i class="fas fa-exchange-alt"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product-content">
+                        <div class="product-container">
+                            <div class="product-img">
+                                <img src="../dist/images/1569237801236-product_1.jpeg" alt="" width="260" height="400">
+                            </div>
+                            <div class="product-detail ">
+                                <div class="product-name"><a href="#">black vase</a></div>
+                                <div class="product-price row d-block">
+                                    <span class="new-price">PKR7,515.00</span>
+                                    <span class="old-price"><del>PKR8,350.00</del></span>
+                                </div>
+                                <div class="product-buttons row ">
+                                    <div class="addfavorit"><a href="#"><i class="far fa-heart"></i></a></div>
+                                    <div class="addtocart">
+                                        <button type="submit">Add to cart</button>
+                                    </div>
+                                    <div class="tocompare"><a href="#"><i class="fas fa-exchange-alt"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product-content">
+                        <div class="product-container">
+                            <div class="product-img">
+                                <img src="../dist/images/1574668456293-product_1.jpeg" alt="" width="260" height="400">
+                            </div>
+                            <div class="product-detail ">
+                                <div class="product-name"><a href="#">black vase</a></div>
+                                <div class="product-price row d-block">
+                                    <span class="new-price">PKR7,515.00</span>
+                                    <span class="old-price"><del>PKR8,350.00</del></span>
+                                </div>
+                                <div class="product-buttons row ">
+                                    <div class="addfavorit"><a href="#"><i class="far fa-heart"></i></a></div>
+                                    <div class="addtocart">
+                                        <button type="submit">Add to cart</button>
+                                    </div>
+                                    <div class="tocompare"><a href="#"><i class="fas fa-exchange-alt"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="product-content">
+                        <div class="product-container">
+                            <div class="product-img">
+                                <img src="../dist/images/1519040826528-product_6.jpeg" alt="" width="260" height="400">
+                            </div>
+                            <div class="product-detail ">
+                                <div class="product-name"><a href="#">black vase</a></div>
+                                <div class="product-price row d-block">
+                                    <span class="new-price">PKR7,515.00</span>
+                                    <span class="old-price"><del>PKR8,350.00</del></span>
+                                </div>
+                                <div class="product-buttons row ">
+                                    <div class="addfavorit"><a href="#"><i class="far fa-heart"></i></a></div>
+                                    <div class="addtocart">
+                                        <button type="submit">Add to cart</button>
+                                    </div>
+                                    <div class="tocompare"><a href="#"><i class="fas fa-exchange-alt"></i></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--product list slider-->
+    <div class="group-list">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="product-title">
+                        <strong>Shurg</strong>
+                    </div>
+
+                    <div id="owl-demo1" class="owl-carousel owl-theme">
+
+                        <div class="item">
+                            <div class="group-item row">
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="group-item row">
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="group-item row">
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="product-title">
+                        <strong>Bottoms</strong>
+                    </div>
+                    <div id="owl-demo2" class="owl-carousel owl-theme">
+
+                        <div class="item">
+                            <div class="group-item row">
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="group-item row">
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="group-item row">
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="product-title">
+                        <strong>Unstiched</strong>
+                    </div>
+                    <div id="owl-demo3" class="owl-carousel owl-theme">
+
+                        <div class="item">
+                            <div class="group-item row">
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="group-item row">
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="group-item row">
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="group-container row">
+                                    <div class="group-img"><img src="../dist/images/-m2a1094-2a66646-rang-ja_2.jpg">
+                                    </div>
+                                    <div class="col inside-group">
+                                        <div class="product-name"><a href="#">black vase</a></div>
+                                        <div class="group-details product-price row d-block">
+                                            <span class="new-price">PKR7,515.00</span>
+                                            <span class="old-price"><del>PKR8,350.00</del></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--footer section-->
+    <div class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 ">
+                    <div class="footer-title">Contact Us</div>
+                    <div class="footer-content">
+                        <ul>
+                            <li class="phone"><i class="fas fa-phone-volume" style="transform: rotate(315deg);"></i><a
+                                    href="#"> 0311 1555259</a></li>
+                            <li class="email"> <i class="far fa-envelope"></i><a href="#">help@myrangja.com</a></li>
+                        </ul>
+                        <ul>
+                            <li class="facebook"><i class="fab fa-facebook-f"></i><a href="#"> Facebook</a></li>
+                            <li class="instagram"><i class="fab fa-instagram"></i> <a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 ">
+                    <div class="footer-title">Information</div>
+                    <div class="footer-content">
+                        <ul>
+                            <li class="exchange"><a href="#">Exchange & Return</a></li>
+                            <li class="sizechart"><a href="#">Size Chart</a></li>
+                        </ul>
+                        <ul>
+                            <li class="faqs"><a href="#">FAQs</a></li>
+                            <li class="locations"><a href="#">Locations</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 ">
+                    <div class="footer-title">Sign up for Newsletter</div>
+                    <div class="footer-content ">
+                        <form class="form-inline my-2 my-lg-0 footer-searchbox" action="#" method="#">
+                            <input class="form-control mr-sm-2 footer-search-input" type="search"
+                                placeholder="Enter Email Address" aria-label="Search">
+                            <button class="btn btn-primary my-2 my-sm-0 f-searchbtn" type="submit">Subscribe</button>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="../dist/js/main.js"></script>
+
+</html>
