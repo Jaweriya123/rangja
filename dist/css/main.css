@@ -608,23 +608,32 @@ body {
       font-size: 36px;
       margin-left: 50px;
       color: #ED326B; }
-    .sidenav .side-header {
+    .sidenav #side-header {
       margin-bottom: 26px; }
-      .sidenav .side-header .list-inline {
+      .sidenav #side-header .side-header-content {
         display: flex;
-        border-bottom: 1px solid #ddd; }
-        .sidenav .side-header .list-inline li a {
-          color: #222;
-          text-transform: uppercase;
-          font-weight: 600;
-          font-size: 14px;
-          border: none; }
-          .sidenav .side-header .list-inline li a .active {
-            border-bottom: 1px solid black; }
-          .sidenav .side-header .list-inline li a:active {
-            border-bottom: 1px solid black; }
-          .sidenav .side-header .list-inline li a:hover {
-            border-bottom: 3px solid black; }
+        border-bottom: 1px solid #ddd;
+        flex-wrap: nowrap; }
+        .sidenav #side-header .side-header-content a {
+          color: #222 !important;
+          text-transform: uppercase !important;
+          font-weight: 600 !important;
+          font-size: 14px !important;
+          border: none !important; }
+          .sidenav #side-header .side-header-content a.show {
+            border-color: black !important; }
+          .sidenav #side-header .side-header-content a:active {
+            border-color: black !important; }
+    .sidenav .tab-content .account-tab .account-tab-content {
+      list-style: none; }
+      .sidenav .tab-content .account-tab .account-tab-content li {
+        list-style: none; }
+        .sidenav .tab-content .account-tab .account-tab-content li a {
+          color: #222 !important;
+          text-transform: uppercase !important;
+          font-weight: 600 !important;
+          font-size: 14px !important;
+          border: none !important; }
     .sidenav .sidebar-dropdown .dropdown-btn {
       padding: 6px 8px 6px 16px;
       text-decoration: none;

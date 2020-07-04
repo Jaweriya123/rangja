@@ -22,7 +22,7 @@
 
 </head>
 
-<body>
+<body id="body">
     <!--header-->
     <header class="main-header">
         <!--top header-->
@@ -160,68 +160,85 @@
     <!--sidemenu-->
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="side-header ">
-            <ul class="list-inline nav nav-tabs">
-                <li><a href="#" class="nav-link active">Menu</a></li>
-                <li><a href="#" class="nav-link ">Account </a></li>
-                <li><a href="#" class="nav-link ">setting </a></li>
-            </ul>
+        <nav id="side-header">
+            <div class="side-header-content  nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                <a class=" nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+                    aria-controls="nav-home" aria-selected="true">Menu</a>
+                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+                    aria-controls="nav-profile" aria-selected="false">Account</a>
+                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+                    aria-controls="nav-contact" aria-selected="false">setting</a>
+            </div>
+        </nav>
+
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="sidebar-content">
+                    <nav>
+                        <div class="sidebar-dropdown">
+                            <button class="dropdown-btn">print remix
+                                <i class="fas fa-angle-down"></i>
+                            </button>
+                            <ul class="dropdown-container">
+                                <li><a href="#">shirts</a></li>
+                                <li><a href="#">Print 2 piece / 3 Piece</a></li>
+                                <li><a href="#">Unstiched</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="sidebar-dropdown">
+                            <button class="dropdown-btn">classics
+                                <i class="fas fa-angle-down"></i>
+                            </button>
+                            <ul class="dropdown-container">
+                                <li><a href="#">shirts</a></li>
+                                <li><a href="#">classics Print 2 piece / 3 Piece</a></li>
+                            </ul>
+                        </div>
+                        <div class="sidebar-dropdown">
+                            <button class="dropdown-btn">festive
+                                <i class="fas fa-angle-down"></i>
+                            </button>
+                            <ul class="dropdown-container">
+                                <li><a href="#">shirts</a></li>
+                                <li><a href="#">Print 2 piece / 3 Piece</a></li>
+
+                            </ul>
+                        </div>
+                        <div class="sidebar-dropdown">
+                            <button class="dropdown-btn">bootoms
+                                <i class="fas fa-angle-down"></i>
+                            </button>
+                            <ul class="dropdown-container">
+                                <li><a href="#">shirts</a></li>
+                                <li><a href="#">Print 2 piece / 3 Piece</a></li>
+                                <li><a href="#">Unstiched</a></li>
+                            </ul>
+                        </div>
+                        <div class="sidebar-dropdown">
+                            <button class="dropdown-btn">bootoms
+                                <i class="fas fa-angle-down"></i>
+                            </button>
+                            <ul class="dropdown-container">
+                                <li><a href="#">shirts</a></li>
+                                <li><a href="#">Print 2 piece / 3 Piece</a></li>
+                                <li><a href="#">Unstiched</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            
+            <div class="tab-pane fade account-tab" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <ul class="account-tab-content">
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">register</a></li>
+                </ul>
+            </div>
+
         </div>
+    </div>
 
-        <div class="sidebar-content">
-            <nav>
-                <div class="sidebar-dropdown">
-                    <button class="dropdown-btn">print remix
-                        <i class="fas fa-angle-down"></i>
-                    </button>
-                    <ul class="dropdown-container">
-                        <li><a href="#">shirts</a></li>
-                        <li><a href="#">Print 2 piece / 3 Piece</a></li>
-                        <li><a href="#">Unstiched</a></li>
-                    </ul>
-                </div>
-
-                <div class="sidebar-dropdown">
-                    <button class="dropdown-btn">classics
-                        <i class="fas fa-angle-down"></i>
-                    </button>
-                    <ul class="dropdown-container">
-                        <li><a href="#">shirts</a></li>
-                        <li><a href="#">classics Print 2 piece / 3 Piece</a></li>
-                    </ul>
-                </div>
-                <div class="sidebar-dropdown">
-                    <button class="dropdown-btn">festive
-                        <i class="fas fa-angle-down"></i>
-                    </button>
-                    <ul class="dropdown-container">
-                        <li><a href="#">shirts</a></li>
-                        <li><a href="#">Print 2 piece / 3 Piece</a></li>
-
-                    </ul>
-                </div>
-                <div class="sidebar-dropdown">
-                    <button class="dropdown-btn">bootoms
-                        <i class="fas fa-angle-down"></i>
-                    </button>
-                    <ul class="dropdown-container">
-                        <li><a href="#">shirts</a></li>
-                        <li><a href="#">Print 2 piece / 3 Piece</a></li>
-                        <li><a href="#">Unstiched</a></li>
-                    </ul>
-                </div>
-                <div class="sidebar-dropdown">
-                    <button class="dropdown-btn">bootoms
-                        <i class="fas fa-angle-down"></i>
-                    </button>
-                    <ul class="dropdown-container">
-                        <li><a href="#">shirts</a></li>
-                        <li><a href="#">Print 2 piece / 3 Piece</a></li>
-                        <li><a href="#">Unstiched</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
     </div>
     <!--bannner img-->
     <div class="banner container">
